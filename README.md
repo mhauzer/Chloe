@@ -1,2 +1,2 @@
-# chloe
+# Chloe
 The Internet Friend of Chloe Vilo - Role Playing Game
