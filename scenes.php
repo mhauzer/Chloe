@@ -26,6 +26,9 @@
             "morale" => "+5",
             "attachment" => "",
             "menu" => array(
+                
+            "text" => "X:Wiem że bardzo ci sie spodobała ta sukienka której zdjęcie mi ostatnio wysłałaś. Mogę ci ją kupić jako dowód na moje słowa.",     
+                
                 array(
                     "id" => 1,
                     "text" => "Tak",
