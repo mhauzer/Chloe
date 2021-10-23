@@ -2,7 +2,8 @@ body {
 	background: black;
 	color: white;
 	margin:0;
-    font-family: monospace
+	font-family: monospace;
+	font-size: large
 }
 
 a {
@@ -67,7 +68,7 @@ div#scroll {
     height: 20em;
     width: 90%;
     overflow: auto;
-    
+    background: #dedede
 }
 
 div#scroll span.block {

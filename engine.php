@@ -32,7 +32,13 @@
         
         return $result;
     }
-        
+
+    function getText($text) {
+        global $lang;
+
+        return $text[$lang];
+    }
+            
     $scene = isset($_GET['i']) ? findScene($scenes, $_GET['i']) : "";
     if (($scene) == "") { echo "ERROR!"; exit(1); }
     
@@ -44,6 +50,5 @@
     
     if ($morale <= 0) { $scene = findScene($scenes, 404); }
     
-    if (strlen($scene['text']) > 0) $conversation[] = $scene['id'];
-
+    if (strlen(getText($scene['text'])) > 0) $conversation[] = $scene['id'];
 ?>

@@ -1,7 +1,22 @@
-<?php include "header.php"?>
+<?php 
+    include "app.php";
+    include "header.php";
+?>
 
-<h1>Instrukcja</h1>
+<div id="mainmenu">
+    <h1><?=getResource("help")?></h1>
 
-TODO
+    <?php if ($lang == "pl") { ?>
+    
+    <p>Polski tekst instrukcji. Do zrobienia</p>
+    
+    <?php } else { ?>
+
+    <p>English help. TODO</p>
+    
+    <?php } ?>
+
+    <p>[ <a href="<?=encodeSettings("index.php")?>">OK</a> ]</p>
+</div>
 
 <?php include "footer.php"?>

@@ -3,8 +3,8 @@
         $bSent = strpos($c, "-") > 0; 
         $style = $bSent ? $style = "sent-message speech-bubble-sent" : "received-message speech-bubble";
         $coor = explode("-", $c);
-        $sc = findScene($scenes, $coor[0]);
-        $content = $bSent ? findMenu($sc, $coor[1])['message'] : $sc['text'];
+        $scene = findScene($scenes, $coor[0]);                
+        $content = $bSent ? getText(findMenu($scene, $coor[1])['message']) : getText($scene['text']);
                     
         return array("style" => $style, "content" => $content);
     }
@@ -19,6 +19,6 @@
         $convoBase = implode(",", $trimmedConvo);          
         $c = (strlen($convoBase) > 0 ? "$convoBase," : "").$scene['id']."-".$menuItem['id'];
         
-        return "$base?i=$i&m=$m&a=$a&c=$c#l";
+        return encodeSettings("$base?i=$i&m=$m&a=$a&c=$c")."#l";
     }
 ?>
