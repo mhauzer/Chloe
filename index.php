@@ -5,8 +5,13 @@
 
     <div id="mainmenu">
         <h1>Internetowa Znajomość</h1>
-        <img width=256 height=256 src="Images/heart.png"><br /><br />
-        <a href="game.php?i=2&m=80&a=100"><button name="start">Start</button></a>
+        <img width=256 height=256 src="Images/heart.png">
+        <br />
+        <br />
+        <ul>
+            <li><a href="game.php?i=2&m=80&a=100">Start</a></li>
+            <li><a href="help.php">Instrukcja</a></li>
+        </ul>
     </div>
 
 <?php include "footer.php"?>

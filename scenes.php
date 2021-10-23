@@ -133,6 +133,14 @@
             )
         ),            
         array(
+            "id"   => 11,
+            "text" => "nowy tekst",
+            "morale" => "-5",
+            "attachment" => "",
+            "menu" => array(
+            )
+        ),        
+        array(
             "id"    => 404,
             "text"  => "Koniec gry",
             "menu"  => array()
