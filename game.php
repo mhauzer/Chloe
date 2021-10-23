@@ -2,6 +2,7 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <?php
+    include "app.php";
     include "scenes.php";
     include "engine.php";
     include "graphics.php";
@@ -31,12 +32,12 @@
         <div class="column">
             <div class="panel">    
                 <?php if (count($scene['menu']) > 0) { ?>
-                <p>Wybierz:</p>
+                <p><?=getResource("choose")?>:</p>
                     <ul>
                 <?php
                     foreach ($scene['menu'] as $m) {
                 ?>
-                        <li><a href="<?=encodeState($morale, $attachment, $conversation, $convoMaxLen, $scene, $m)?>"><?=$m['text']?></a></li>
+                        <li><a href="<?=encodeState($morale, $attachment, $conversation, $convoMaxLen, $scene, $m)?>"><?=getText($m['text'])?></a></li>
                 <?php
                     }
                 ?>
@@ -46,12 +47,12 @@
 
         
             <div class="panel" id="player">
-                <p>Postać:</p>
+                <p><?=getResource("player")?>:</p>
                 <ul>
-                    <li>Psychika: <?= $morale ?></li>
-                    <li>Przywiązanie: <?= $attachment ?></li>
+                    <li><?=getResource("morale")?>: <?= $morale ?></li>
+                    <li><?=getResource("attachment")?>: <?= $attachment ?></li>
                 </ul>    
-                <p><a href="index.php"><button>Wyjdź z gry</button></a></p>
+                <p><a href="<?=encodeSettings("index.php")?>"><button><?=getResource("quit")?></button></a></p>
             </div>    
         </div>
     </div>
