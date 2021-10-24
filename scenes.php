@@ -16,11 +16,11 @@
                     "id" => 1,
                     "text" => array(
                         "pl" => "Zapytaj o intencje",
-                        "en" => "xxx"
+                        "en" => "ask for intensions"
                     ),
                     "message" => array(
                         "pl" => "Jakie są Twoje intencje?",
-                        "en" => "xxx"
+                        "en" => "What are yours intensions?"
                     ),
                     "goto" => 3
                 ),
@@ -28,7 +28,7 @@
                     "id" => 2,
                     "text" => array(
                         "pl" => "Zignoruj",
-                        "en" => "xxx"
+                        "en" => "ignore"
                     ),
                     "message" => array(
                         "pl" => "",
@@ -42,7 +42,7 @@
             "id"   => 3,
             "text" => array(
                 "pl" => "X: Wiem że bardzo ci sie spodobała ta sukienka której zdjęcie mi ostatnio wysłałaś. Mogę ci ją kupić jako dowód na moje słowa.",
-                "en" => "xxx"
+                "en" => "X:  I know you really like this one dress. I can buy it for you as a prove of my works."
             ),
             "morale" => "",
             "attachment" => "",
@@ -80,8 +80,8 @@
         array(
             "id"   => 4,
             "text" => array(
-                "pl" => "Y: strasznie męczą mnie własne myśli... nieustający konflikt między chęcią wiary w to że jest dobry, z tym że może ona ma racje…",
-                "en" => "xxx"
+                "pl" => "Y: strasznie męczą mnie własne myśli... nieustający konflikt między chęcią wiary w to że jest dobry, z tym że może ona ma racje...",
+                "en" => "I'm really tired of my own toughts... neverending conflict between wanting to believe he is a good person and that she may be right..."
             ),
             "morale" => "-5",
             "attachment" => "",
@@ -92,7 +92,7 @@
             "id"   => 5,
             "text" => array(
                 "pl" => "Cieszę się że mogę ci sprawić radość i mam nadzieję, że odbierzesz ją osobiście...",
-                "en" => "xxx"
+                "en" => "I'm happy I can make you smile and I hope you will pick it up personally..."
             ),
             "morale" => "-5",
             "attachment" => "",
@@ -101,11 +101,11 @@
                     "id" => 1,
                     "text" => array(
                         "pl" => "TAK; zgoda na spotkanie u niego",
-                        "en" => "xxx"
+                        "en" => "YES; approval of meeting in his place"
                     ),
                     "message" => array(
                         "pl" => "Może spotkamy się u Ciebie?",
-                        "en" => "xxx"
+                        "en" => "Maybe we will meet at your place?"
                     ),
                     "morale" => "+5",
                     "attachment" => "+5",
@@ -115,11 +115,11 @@
                     "id" => 2,
                     "text" => array(
                         "pl" => "TAK; zgoda na spotkanie w miejscu publicznym",
-                        "en" => "xxx"
+                        "en" => "YES; approval to meet at public place"
                     ),
                     "message" => array(
                         "pl" => "Spotkajmy się w galerii handlowej",
-                        "en" => "xxx"
+                        "en" => "Let's meet in the shopping mall"
                     ),
                     "morale" => "+5",
                     "attachment" => "+5",
@@ -129,11 +129,11 @@
                     "id" => 3,
                     "text" => array(
                         "pl" => "NIE; podanie adresu",
-                        "en" => "xxx"
+                        "en" => "NO; give adress"
                     ),
                     "message" => array(
                         "pl" => "Nie. Przyślij mi na mój adres domowy.",
-                        "en" => "xxx"
+                        "en" => "No. Send it to my home adress."
                     ),
                     "morale" => "+5",
                     "attachment" => "-5",
@@ -143,7 +143,7 @@
                     "id" => 4,
                     "text" => array(
                         "pl" => "NIE; rezygnacja",
-                        "en" => "xxx"
+                        "en" => "NO, resignation"
                     ),
                     "message" => array(
                         "pl" => "nie",
@@ -159,7 +159,7 @@
             "id"   => 6,
             "text" => array(
                 "pl" => "Oh żabko, nie rób mi przykrości, zastanów się porządnie i dasz mi jeszcze znać",
-                "en" => ""
+                "en" => "Oh sweety, don't make me sad, think about it again and let me know your decision."
             ),
             "morale" => "",
             "attachment" => "",
@@ -170,7 +170,7 @@
             "id"   => 7,
             "text" => array(
                 "pl" => "Cieszę się że się zgodziłaś! ",
-                "en" => "xxx"
+                "en" => "I'm happy you agreed!"
             ),
             "morale" => "",
             "attachment" => "",
@@ -180,8 +180,8 @@
         array(
             "id"   => 8,
             "text" => array(
-                "pl" => "No dobrze chociaż tyle… choć chętnie bym cię zobaczył u mnie, ale nie jestem chyba tego wart..",
-                "en" => "xxx"
+                "pl" => "No dobrze chociaż tyle… choć chętnie bym cię zobaczył u mnie, ale nie jestem chyba tego wart...",
+                "en" => "Well at least that's it...although I would love to see you at my place, but I'm probably not worth it...."
             ),
             "morale" => "",
             "attachment" => "",
@@ -191,8 +191,8 @@
         array(
             "id"   => 9,
             "text" => array(
-                "pl" => "Cieszę się że przyjmiesz prezent, choć tak bardzo bym chciał móc być przy tobie…",
-                "en" => "xxx"
+                "pl" => "Cieszę się że przyjmiesz prezent, choć tak bardzo bym chciał móc być przy tobie...",
+                "en" => "I'm happy you at least will take a present, although I really want to be beside you..."
             ),
             "morale" => "",
             "attachment" => "",
@@ -225,7 +225,7 @@
             "id"    => 404,
             "text"  => array(
                 "pl" => "Koniec gry",
-                "en" => "xxx"
+                "en" => "end game"
             ),
             "menu"  => array()
         )
