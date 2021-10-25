@@ -2,6 +2,7 @@
     include "resources.php";
     
     $lang = isset($_GET['lang']) ? $_GET['lang'] : "pl";
+    $view = isset($_GET['show']) ? $_GET['show'] : $defaultView;
     
     $res = $resources;
     
