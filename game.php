@@ -51,9 +51,9 @@
                 <ul>
                     <li><?=getResource("morale")?>: <?= $morale ?></li>
                     <li><?=getResource("attachment")?>: <?= $attachment ?></li>
-                </ul>    
-                <p><a href="<?=encodeSettings("index.php")?>"><button><?=getResource("quit")?></button></a></p>
+                </ul>                    
             </div>    
+            <p style="margin-left:1em">[ <a href="<?=encodeSettings("index.php")?>"><?=getResource("quit")?></a> ]</p>
         </div>
     </div>
     

@@ -9,7 +9,7 @@
     <p><?=getResource("language")?>: <a href="?lang=pl">Polski</a> | <a href="?lang=en">English</a></p>
 
     <br />
-    <p>[ <a href="<?=encodeSettings("index.php")?>">OK</a> ]</p>
+    <?php include "ok.php"?>
 </div>
 
 <?php include "footer.php"?>

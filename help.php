@@ -16,7 +16,7 @@
     
     <?php } ?>
 
-    <p>[ <a href="<?=encodeSettings("index.php")?>">OK</a> ]</p>
+    <?php include "ok.php"?>
 </div>
 
 <?php include "footer.php"?>
