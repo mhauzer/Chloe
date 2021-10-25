@@ -1,7 +1,7 @@
 <?php 
     $defaultView = "titlepage";
 
-    include "app.php";
+    include "Engine/app.php";
 
     ob_start();
     include "Views/$view.php";

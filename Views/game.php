@@ -1,33 +1,42 @@
 <?php
-    include "scenes.php";
-    include "engine.php";
-    include "graphics.php";
+    include "Resources/scenes.php";
+    include "Engine/engine.php";
+    include "Engine/render.php";
     
     $convoMaxLen = 5;
 ?>
 
-<div class="column">    
-    <div class="panel" id="scroll">
-        <?php foreach ($conversation as $c) {
-            $message = getMessageContent($scenes, $c);
-            if (strlen($message['content']) > 0) {                                   
+<section id="phone-screen">    
+    
+        <?php 
+            $msgCnt = 0;
+            foreach ($conversation as $c) {
+                $message = getMessageContent($scenes, $c);
+                if (strlen($message['content']) > 0) {
+                    $msgCnt += 1;
         ?>
         <div class="<?=$message['style']?>">
         <?php ?>
             <p><?=$message['content']?></p>
         </div>
-        <?php } } ?>
+        <?php   
+                } 
+            } 
+
+            if ($msgCnt == 0) { ?>
+            <p class="phone-system-message"><?=getResource("no-messages")?>
+        <?php } else { ?>
         <div style="clear: both">
             <a name="l"></a>
         </div>
-    </div>
-</div>
+        <?php } ?>
+    
+</section>
 
-<div class="column">
-    <div class="panel">
-        <nav>
+<section id="controls">
+    <nav class="panel">        
         <?php if (count($scene['menu']) > 0) { ?>
-        <p><?=getResource("choose")?>:</p>
+        <h2><?=getResource("choose")?>:</h2>
             <ul>
         <?php
             foreach ($scene['menu'] as $m) {
@@ -38,16 +47,14 @@
         ?>
             </ul>
         <?php } ?>
-        </nav>
-    </div>
+    </nav>
 
-
-    <div class="panel" id="player">
-        <p><?=getResource("player")?>:</p>
+    <aside class="panel" id="player">
+        <h2><?=getResource("player")?>:</h2>
         <ul>
             <li><?=getResource("morale")?>: <?= $morale ?></li>
             <li><?=getResource("attachment")?>: <?= $attachment ?></li>
         </ul>                    
-    </div>    
+    </aside>    
     <p style="margin-left:1em">[ <a href="<?=encodeSettings("index.php")?>"><?=getResource("quit")?></a> ]</p>
-</div>
+</section>

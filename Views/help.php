@@ -1,3 +1,4 @@
+<article id="help">
 <h1><?=getResource("help")?></h1>
 
 <?php if ($lang == "pl") { ?>
@@ -11,3 +12,4 @@
 <?php } ?>
 
 <?php include "ok.php"?>
+</article>

@@ -10,7 +10,7 @@
     }
 
     function encodeState($morale, $attachment, $conversation, $convoMaxLen, $scene, $menuItem) {
-        $base = "game.php";
+        $base = "index.php?show=game";
         $i = $menuItem['goto'];
         $m = isset($menuItem['morale']) ? modifyNumericValue($morale, $menuItem['morale']) : $morale;
         $a = isset($menuItem['attachment']) ? modifyNumericValue($attachment, $menuItem['attachment']) : $attachment;        
@@ -19,6 +19,6 @@
         $convoBase = implode(",", $trimmedConvo);          
         $c = (strlen($convoBase) > 0 ? "$convoBase," : "").$scene['id']."-".$menuItem['id'];
         
-        return encodeSettings("$base?i=$i&m=$m&a=$a&c=$c")."#l";
+        return encodeSettings("$base&i=$i&m=$m&a=$a&c=$c")."#l";
     }
 ?>
