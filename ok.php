@@ -1,1 +1,0 @@
-<p>[ <a href="<?=encodeSettings("index.php")?>">OK</a> ]</p>

@@ -1,40 +1,101 @@
 body { 
 	background: black;
-	color: white;
+	color: #dedede;
 	margin:0;
 	font-family: monospace;
 	font-size: large
 }
 
 a {
-    color: white
+    color: #dedede
 }
 
-#mainmenu {
-	margin: 0;
-  	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
+ul {
+	list-style-type: none;	
+	padding-left: 0
+}
+
+nav ul li {
+	line-height: 3em;	
+}
+
+nav ul:last-child {
+	margin-bottom: -1em;
+}
+
+#content {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@media screen and (orientation: landscape) {
+	#titlepage {
+		width: 30em;
+		background-color: white;	
+		margin: auto;		
+		margin-top: 7%;
+	}
+	
+	#title {
+		text-align: center;
+		width: 20em;
+		float: left;
+	}
+
+	#mainmenu {
+		margin-top: 3em;
+		text-align: center;
+		float: left;		
+	}
+}
+
+@media screen and (orientation: portrait) {
+	#titlepage {
+		text-align: center;
+	}	
+}
+
+#credits {
+	margin: auto;
+}
+
+td {
+	vertical-align: top;
+	padding-bottom: 1em;		
+}
+
+td:first-child   {
+	text-align: right;
+	padding-right: 1em;
+}
+
+td:last-child   {
+	padding-left: 1em;
+	text-align: left
+}
+
+#about {
+	font-size: medium;
+	text-align: center;
+	margin: 1em;
+}
+
+#settings {
 	text-align: center;
 }
 
-.column {
-    float: left;
-    width: 50%
-}
-
-/* Clear floats after the columns */
-.content:after {
-  content: "";
-  display: table;
-  clear: both;
+.phone-system-message {
+	color: #333;
+	text-align: center;
+	position: relative;
+	top: 40%;
 }
 
 .received-message {
     float: left;
     color: white;
-    margin-left: 1em;
+    margin-left: 2em;
     margin-bottom: 1em;
     padding: 1em 2em;
     width: 60%;    
@@ -43,37 +104,77 @@ a {
 .sent-message {
     float: right;
     color: white;
-    margin-right: 1em;
+    margin-right: 2em;
     margin-bottom: 1em;
     padding: 1em 2em;
     width: 60%;    
 }
 
-#footer {
-	width: 100%;
-	position: fixed;
-	bottom: 0;
-	margin: 0;
-	padding: 0.5em;
-	border-top: 1px solid orange;
-	color: orange;
-}
-
 .panel {
-    border: 1px solid white;
+    border: 1px solid #dedede;
     margin: 1em; padding: 1em
 }
 
-div#scroll {
-    height: 20em;
-    width: 90%;
-    overflow: auto;
-    background: #dedede
+.panel h2 {
+	margin: -1em;
+	padding: 0.5em;
+	background: #dedede;
+	color: black;
+	font-size: large
 }
 
-div#scroll span.block {
-    width: 300px;
-    display: inline-block;
+#player ul {
+	margin-top: 2em;
+	margin-bottom: 0;
+}
+
+@media screen and (orientation: landscape) and (min-height: 700px) {
+	#phone-screen {
+		width: 50%;
+    	height: 45em;    
+    	overflow: auto;
+    	background: #dedede;
+		float: left;
+	}
+
+	#controls {
+		width: 50%;
+		float: right
+	}
+}
+
+@media screen and (orientation: landscape) and (max-height: 700px) {
+	#phone-screen {
+		width: 50%;
+    	height: 20em;    
+    	overflow: auto;
+    	background: #dedede;
+		float: left;
+	}
+
+
+	#controls {
+		width: 50%;
+		float: right
+	}
+}
+
+@media screen and (orientation: portrait) {
+	#phone-screen {
+		width: 100%;
+    	height: 20em;    
+    	overflow: auto;
+    	background: #dedede
+	}
+}
+
+#help {
+	padding: 1em;
+}
+
+#ok {
+	margin-top: 2em;
+	text-align: center;
 }
 
 .speech-bubble {
@@ -116,4 +217,11 @@ div#scroll span.block {
 	border-top: 0;
 	margin-top: -10px;
 	margin-right: -20px;
+}
+
+#version {
+	font-size: small;
+	text-align: right;
+	margin-right:1em;
+	color:gray
 }

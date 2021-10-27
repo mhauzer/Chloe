@@ -4,6 +4,14 @@
             "pl" => "O programie",
             "en" => "About"
         ),
+        "attachment" => array(
+            "pl" => "Przywiązanie",
+            "en" => "Attachment"
+        ),
+        "choose" => array(
+            "pl" => "Wybierz",
+            "en" => "xxx"
+        ),
         "created-by" => array(
             "pl" => "stworzona przez",
             "en" => "created by"
@@ -32,29 +40,25 @@
             "pl" => "Instrukcja",
             "en" => "xxx"
         ),
-        "settings" => array(
-            "pl" => "Ustawienia",
-            "en" => "Settings"
-        ),
         "language" => array(
             "pl" => "Język",
             "en" => "Language"
-        ),
-        "choose" => array(
-            "pl" => "Wybierz",
-            "en" => "xxx"
-        ),
-        "player" => array(
-            "pl" => "Postać",
-            "en" => "xxx"
         ),
         "morale" => array(
             "pl" => "Psychika",
             "en" => "Morale"
         ),
-        "attachment" => array(
-            "pl" => "Przywiązanie",
-            "en" => "Attachment"
+        "no-messages" => array(
+            "pl" => "Nie masz żadnych wiadomości",
+            "en" => "You have no messages"
+        ),
+        "player" => array(
+            "pl" => "Postać",
+            "en" => "xxx"
+        ),
+        "settings" => array(
+            "pl" => "Ustawienia",
+            "en" => "Settings"
         ),
         "quit" => array(
             "pl" => "Zakończ grę",
