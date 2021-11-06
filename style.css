@@ -111,8 +111,11 @@ td:last-child   {
 }
 
 .panel {
+	margin: 1em; padding: 1em
+}
+
+.border {
     border: 1px solid #dedede;
-    margin: 1em; padding: 1em
 }
 
 .panel h2 {
@@ -224,4 +227,20 @@ td:last-child   {
 	text-align: right;
 	margin-right:1em;
 	color:gray
+}
+
+#character-icon {
+	width: 128px;
+	height: 128px;
+	float: left;
+}
+
+#character-stats {
+	float: left;
+	font-size: 28px;
+	transform: translateY(-25px)
+}
+
+.separator {
+	clear: both;
 }

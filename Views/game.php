@@ -34,7 +34,7 @@
 </section>
 
 <section id="controls">
-    <nav class="panel">        
+    <nav class="panel border">        
         <?php if (count($scene['menu']) > 0) { ?>
         <h2><?=getResource("choose")?>:</h2>
             <ul>
@@ -50,11 +50,12 @@
     </nav>
 
     <aside class="panel" id="player">
-        <h2><?=getResource("player")?>:</h2>
-        <ul>
-            <li><?=getResource("morale")?>: <?= $morale ?></li>
-            <li><?=getResource("attachment")?>: <?= $attachment ?></li>
+        <img id="character-icon" src="Images/character-icon-happy.png" alt="<?=getResource("player")?>">
+        <ul id="character-stats">
+            <li><img src="Images/12-eye.png" alt="<?=getResource("morale")?>"> <?= $morale ?></li>
+            <li><img src="Images/29-heart.png" alt="<?=getResource("attachment")?>"> <?= $attachment ?></li>
         </ul>                    
-    </aside>    
-    <p style="margin-left:1em">[ <a href="<?=encodeSettings("index.php")?>"><?=getResource("quit")?></a> ]</p>
+    </aside>
+    <div class="separator" />    
+    <p style="margin: 8em 1em 2em 1em">[ <a href="<?=encodeSettings("index.php")?>"><?=getResource("quit")?></a> ]</p>
 </section>
