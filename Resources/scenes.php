@@ -187,6 +187,7 @@
             "attachment" => "",
             "menu" => array(
             )
+            "go to" => "10"
         ),            
         array(
             "id"   => 7,
@@ -202,6 +203,7 @@
             "attachment" => "",
             "menu" => array(
             )
+            "go to" => "10"
         ),            
         array(
             "id"   => 8,
@@ -217,6 +219,7 @@
             "attachment" => "",
             "menu" => array(
             )
+            "go to" => "10"
         ),            
         array(
             "id"   => 9,
@@ -232,6 +235,7 @@
             "attachment" => "",
             "menu" => array(
             )
+            "go to" => "10"
         ),            
         array(
             "id"   => 10,
