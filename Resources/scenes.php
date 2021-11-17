@@ -26,7 +26,7 @@
                         "pl" => "Chcesz dla mnie jak najlepiej... prawda?",
                         "en" => "You want the best for me... right?"
                     ),
-                    "goto" => 21,
+                    "goto" => 3,
                 ),
                 array(
                     "id" => 2,
@@ -43,22 +43,7 @@
                 )
             )
         ), 
-        array(
-            "id"   => 21,
-            "text" => array(
-                "pl" => "Marek: Wiem że bardzo ci sie spodobała ta sukienka, której zdjęcie mi ostatnio wysłałaś. Mogę ci ją kupić jako dowód na moje słowa. Chcesz?",
-                "en" => "Marcus:  I know you really like this one dress. I can buy it for you as a prove of my works. Do you want it?"
-            ),
-            "thoughts" => array(
-                "pl" => "",
-                "en" => ""
-            ),               
-            "morale" => "",
-            "attachment" => "",
-            ),
-        "goto" => 3,
-        ),
-        
+ 
         array(
             "id"   => 3,
             "text" => array(
