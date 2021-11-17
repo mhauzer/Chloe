@@ -180,8 +180,8 @@
                 "en" => "Oh sweety, don't make me sad, think about it again and let me know your decision."
             ),
             "thoughts" => array(
-                "pl" => "",
-                "en" => ""
+                "pl" => "Może faktycznie chce mi sprawić radość i powinnam się zgodzić, z drugiej strony nie jestem jednak pewna. Powinnam chwile poczekać i wtedy podjąć decyzję",
+                "en" => "Maybe he really just want to make me happy and I should agree, but from the other hand I'm not sure. I should wait a while and then I will decide."
             ),               
             "morale" => "",
             "attachment" => "",
@@ -245,7 +245,36 @@
             ),               
             "morale" => "",
             "attachment" => "",
-            "menu" => array(
+            "menu" => array(                               
+                array(
+                    "id" => 1,
+                    "text" => array(
+                        "pl" => "Tak",
+                        "en" => "Yes"
+                    ),
+                    "message" => array(
+                        "pl" => "Tak",
+                        "en" => "Yes"
+                    ),
+                    "morale" => "+10",
+                    "attachment" => "+10",
+                    "goto" => "5"
+                ), 
+                array(
+                    "id" => 2,
+                    "text" => array(
+                        "pl" => "Nie",
+                        "en" => "No"
+                    ),
+                    "message" => array(
+                        "pl" => "Nie",
+                        "en" => "No"
+                    ),
+                    "morale" => "-10",
+                    "attachment" => "-10",
+                    "goto" => "6"
+                )
+        
             )
         ),            
         array(
