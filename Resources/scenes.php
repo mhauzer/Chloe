@@ -26,7 +26,7 @@
                         "pl" => "Chcesz dla mnie jak najlepiej... prawda?",
                         "en" => "You want the best for me... right?"
                     ),
-                    "goto" => 21
+                    "goto" => 21,
                 ),
                 array(
                     "id" => 2,
@@ -56,7 +56,8 @@
             "morale" => "",
             "attachment" => "",
             ),
-        "goto" => 3
+        "goto" => 3,
+        ),
         
         array(
             "id"   => 3,
