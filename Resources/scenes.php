@@ -278,8 +278,38 @@
         array(
             "id"   => 11,
             "text" => array(
-                "pl" => "nowy tekst",
-                "en" => "xxx"
+                "pl" => "Marek: Jesteś piękna chce cie widzieć częściej.",
+                "en" => "Marcus: You are so beautifull. I want to see more of you."
+            ),
+            "thoughts" => array(
+                "pl" => "On mnie naprawde lubi. Na pewno jest dobrym człowiekiem.",
+                "en" => "He really likes me. I knew he was a good guy."
+            ),               
+            "morale" => "-5",
+            "attachment" => "",
+            "menu" => array(
+            )
+        ),            
+        array(
+            "id"   => 12,
+            "text" => array(
+                "pl" => "Marek: Szkoda chciałem cie tylko zobaczyć...",
+                "en" => "Marcus: Awh, that's a shame. I only wanted to see you"
+            ),
+            "thoughts" => array(
+                "pl" => "Może jednak powinnam mu wysłać, przecież to tylko zdjecie...",
+                "en" => "Maybe I should send it to him. After all that is only a photo"
+            ),               
+            "morale" => "-5",
+            "attachment" => "",
+            "menu" => array(
+            )
+        ),        
+         array(
+            "id"   => 12,
+            "text" => array(
+                "pl" => "Marek: A może jednak dasz sie namówić na spotkanie u mnie?",
+                "en" => "Marcus: Honey, maybe you would like to meet me at my place?"
             ),
             "thoughts" => array(
                 "pl" => "",
