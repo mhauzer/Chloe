@@ -23,8 +23,8 @@
                         "en" => "Ask for intensions"
                     ),
                     "message" => array(
-                        "pl" => "Jakie są Twoje intencje?",
-                        "en" => "What are yours intensions?"
+                        "pl" => "Chcesz dla mnie jak najlepiej... prawda?",
+                        "en" => "You want the best for me... right?"
                     ),
                     "goto" => 3
                 ),
