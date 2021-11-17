@@ -3,7 +3,7 @@
 
 <p><?=getResource("created-by")?></p>
 
-<h2>Cold Lips Productions</h2>
+<h2>CLP</h2>
 
 <table id="credits">
 <tr><td>Kamila Hauzer</td><td>-</td><td><?=getResource("game-design")?></td></tr>
