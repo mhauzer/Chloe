@@ -47,7 +47,7 @@
         array(
             "id"   => 3,
             "text" => array(
-                "pl" => "Marek: No tak, skąd ci sie to wgl wzielo? Oczywiście, że chce dla ciebie jak najlepiej. Wiem że bardzo ci sie spodobała ta sukienka, której zdjęcie mi ostatnio wysłałaś. Mogę ci ją kupić jako dowód na moje słowa. Chcesz?",
+                "pl" => "Marek: No tak, skąd ci sie to w ogóle wzieło? Oczywiście, że chce dla Ciebie jak najlepiej. Wiem, że bardzo Ci sie spodobała ta sukienka, której zdjęcie mi ostatnio wysłałaś. Mogę ci ją kupić jako dowód na moje słowa. Chcesz?",
                 "en" => "Marcus: Of course, why are you even asking? It's obvious that I want the best for you. I know you really like this one dress. I can buy it for you as a prove of my works. Do you want it?"
             ),
             "thoughts" => array(
@@ -64,8 +64,8 @@
                         "en" => "Yes"
                     ),
                     "message" => array(
-                        "pl" => "tak",
-                        "en" => "yes"
+                        "pl" => "Tak",
+                        "en" => "Yes"
                     ),
                     "morale" => "+10",
                     "attachment" => "+10",
@@ -78,8 +78,8 @@
                         "en" => "No"
                     ),
                     "message" => array(
-                        "pl" => "nie",
-                        "en" => "no"
+                        "pl" => "Nie",
+                        "en" => "No"
                     ),
                     "morale" => "-10",
                     "attachment" => "-10",
@@ -99,6 +99,7 @@
             ),               
             "morale" => "-10",
             "attachment" => "",
+             "goto" => "10"
             "menu" => array(
             )
         ),
@@ -191,12 +192,12 @@
         array(
             "id"   => 7,
             "text" => array(
-                "pl" => "Cieszę się że się zgodziłaś! ",
-                "en" => "I'm happy you agreed!"
+                "pl" => "Pewnie! Cieszę się że się zgodziłaś.",
+                "en" => "Sure! I'm happy you agreed!"
             ),
             "thoughts" => array(
-                "pl" => "",
-                "en" => ""
+                "pl" => "Trochę się stresuję spotkaniem u niego ale już nie mogę się doczekać Delia jeszcze zobaczy, że nie miała racji. ",
+                "en" => "I'm a little nervous about meeting at his place, but I can't wait. Delia will see she was wrong."
             ),               
             "morale" => "",
             "attachment" => "",
@@ -206,12 +207,12 @@
         array(
             "id"   => 8,
             "text" => array(
-                "pl" => "No dobrze chociaż tyle… choć chętnie bym cię zobaczył u mnie, ale nie jestem chyba tego wart...",
+                "pl" => "No dobrze chociaż tyle... choć chętnie bym cię zobaczył u mnie, ale nie jestem chyba tego wart...",
                 "en" => "Well at least that's it...although I would love to see you at my place, but I'm probably not worth it...."
             ),
             "thoughts" => array(
-                "pl" => "",
-                "en" => ""
+                "pl" => "Jego reakcja była trochę dziwna... ale to może tylko mi się wydaje. W końcu trochę rozumiem, że chciałby ze mną spędzić czas sam na sam.. ja w sumie też.",
+                "en" => "His reaction was a little weird... but it is probably my imagination. I can understand that he wants to spend some time with me alone, actually me too."
             ),               
             "morale" => "",
             "attachment" => "",
@@ -225,8 +226,8 @@
                 "en" => "I'm happy you at least will take a present, although I really want to be beside you..."
             ),
             "thoughts" => array(
-                "pl" => "",
-                "en" => ""
+                "pl" => "Bardzo chętnie bym się z nim spotkała, ale to jeszcze nie pora - szególnie po tym co mówiła Delia, a ta sukienka to moje największe marzenie",
+                "en" => "I'd love to meet him but it's not the right time expecially after what Delia said, but that dress is my biggest dream."
             ),               
             "morale" => "",
             "attachment" => "",
@@ -236,8 +237,8 @@
         array(
             "id"   => 10,
             "text" => array(
-                "pl" => "",
-                "en" => ""
+                "pl" => "Marek: Myślałem ostatnio, że mogłababyś mi wysłać swoje zdjęcie.",
+                "en" => "Marcus: I was thinking recently that you could send me a photo of you."
             ),
             "thoughts" => array(
                 "pl" => "",
