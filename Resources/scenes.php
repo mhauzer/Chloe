@@ -185,9 +185,9 @@
             ),               
             "morale" => "",
             "attachment" => "",
-            "menu" => array(
-            )
             "go to" => "10"
+            )
+        )
         ),            
         array(
             "id"   => 7,
@@ -201,7 +201,10 @@
             ),               
             "morale" => "",
             "attachment" => "",
+            
             "go to" => "10"
+            )
+         )
         ),            
         array(
             "id"   => 8,
@@ -215,7 +218,10 @@
             ),               
             "morale" => "",
             "attachment" => "",
+             ),
             "go to" => "10"
+                  )
+         )
         ),            
         array(
             "id"   => 9,
@@ -230,6 +236,8 @@
             "morale" => "",
             "attachment" => "",
             "go to" => "10"
+                  )
+         )
         ),            
         array(
             "id"   => 10,
