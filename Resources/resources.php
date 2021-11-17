@@ -10,7 +10,7 @@
         ),
         "choose" => array(
             "pl" => "Wybierz",
-            "en" => "xxx"
+            "en" => "Select"
         ),
         "created-by" => array(
             "pl" => "stworzona przez",
@@ -30,15 +30,15 @@
         ),
         "start" => array(
             "pl" => "Nowa gra",
-            "en" => "xxx"
+            "en" => "New Game"
         ),
         "title" => array(
-            "pl" => "Internetowa Znajomość",
-            "en" => "xxx"
+            "pl" => "Chloe",
+            "en" => "Chloe"
         ),
         "help" => array(
             "pl" => "Instrukcja",
-            "en" => "xxx"
+            "en" => "Instruction"
         ),
         "language" => array(
             "pl" => "Język",
@@ -54,7 +54,7 @@
         ),
         "player" => array(
             "pl" => "Postać",
-            "en" => "xxx"
+            "en" => "Character"
         ),
         "settings" => array(
             "pl" => "Ustawienia",
