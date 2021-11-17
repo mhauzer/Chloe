@@ -6,12 +6,12 @@
         array(
             "id"   => 2,
             "text" => array(
-                "pl" => "*Delia: Poznali się kiedy Chloe była w ciemnym miejscu. On był dla niej jak światło w tunelu. Spędzali razem każdą wolną chwilę, która się tylko nadarzyła. Z jednej strony cieszę się że Chloe czuje się już lepiej, ale z drugiej strony ten cały X jest jakiś dziwny i według mnie nie powinna mu ufać... on jej może zrobić krzywdę *",
-                "en" => "*Delia: They met when Chloe was in a dark palce in her life. They spent every spare moment they had together. He was always there for her especially when she felt bad. On the one hand I'm happy that Chloe is feeling better, but on the other hand X is kind of weird and in my opinion she shouldn't trust him... He can hurt her. *"
+                "pl" => "*Delia: Poznali się kiedy Chloe była w ciemnym miejscu. On był dla niej jak światło w tunelu. Spędzali razem każdą wolną chwilę, która się tylko nadarzyła. Z jednej strony cieszę się że Chloe czuje się już lepiej, ale z drugiej strony ten cały Marek jest jakiś dziwny i według mnie nie powinna mu ufać... On jej może zrobić krzywdę.*",
+                "en" => "*Delia: They met when Chloe was in a dark palce in her life. They spent every spare moment they had together. He was always there for her especially when she felt bad. On the one hand I'm happy that Chloe is feeling better, but on the other hand Marcus is kind of weird and in my opinion she shouldn't trust him... He can hurt her.*"
             ),        
             "thoughts" => array(
-                "pl" => "",
-                "en" => ""
+                "pl" => "hmm, to było dzwine",
+                "en" => "huh, that was weird"
             ),                        
             "morale" => "80",
             "attachment" => "100",
@@ -20,7 +20,7 @@
                     "id" => 1,
                     "text" => array(
                         "pl" => "Zapytaj o intencje",
-                        "en" => "ask for intensions"
+                        "en" => "Ask for intensions"
                     ),
                     "message" => array(
                         "pl" => "Jakie są Twoje intencje?",
@@ -32,11 +32,15 @@
                     "id" => 2,
                     "text" => array(
                         "pl" => "Zignoruj",
-                        "en" => "ignore"
+                        "en" => "Ignore"
                     ),
                     "message" => array(
                         "pl" => "",
                         "en" => ""
+                        ),        
+            "thoughts" => array(
+                "pl" => "hmm, to było dzwine",
+                "en" => "huh, that was weird"
                     ),
                     "goto" => 4,                     
                 )
