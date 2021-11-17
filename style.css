@@ -241,6 +241,24 @@ td:last-child   {
 	transform: translateY(-25px)
 }
 
+#thoughts {	
+	background: grey;
+	border-radius: 1em;
+	color: black;
+}
+
+#thoughts:after {
+	content: '';
+	position: relative;
+	left: 10%;
+	bottom: -15px;
+	border: 20px solid transparent;
+	border-left-color: grey;
+	border-right: 0;
+	border-top: 0;
+}
+
+
 .separator {
 	clear: both;
 }

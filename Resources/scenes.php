@@ -8,7 +8,11 @@
             "text" => array(
                 "pl" => "",
                 "en" => ""
-            ),                        
+            ),        
+            "thoughts" => array(
+                "pl" => "",
+                "en" => ""
+            ),               
             "morale" => "80",
             "attachment" => "100",
             "menu" => array(
@@ -44,6 +48,10 @@
                 "pl" => "X: Wiem że bardzo ci sie spodobała ta sukienka której zdjęcie mi ostatnio wysłałaś. Mogę ci ją kupić jako dowód na moje słowa.",
                 "en" => "X:  I know you really like this one dress. I can buy it for you as a prove of my works."
             ),
+            "thoughts" => array(
+                "pl" => "",
+                "en" => ""
+            ),               
             "morale" => "",
             "attachment" => "",
             "menu" => array(                                 
@@ -80,9 +88,13 @@
         array(
             "id"   => 4,
             "text" => array(
+                "pl" => "",
+                "en" => ""
+            ),
+            "thoughts" => array(
                 "pl" => "Y: strasznie męczą mnie własne myśli... nieustający konflikt między chęcią wiary w to że jest dobry, z tym że może ona ma racje...",
                 "en" => "I'm really tired of my own toughts... neverending conflict between wanting to believe he is a good person and that she may be right..."
-            ),
+            ),               
             "morale" => "-5",
             "attachment" => "",
             "menu" => array(
@@ -94,6 +106,10 @@
                 "pl" => "Cieszę się że mogę ci sprawić radość i mam nadzieję, że odbierzesz ją osobiście...",
                 "en" => "I'm happy I can make you smile and I hope you will pick it up personally..."
             ),
+            "thoughts" => array(
+                "pl" => "",
+                "en" => ""
+            ),               
             "morale" => "-5",
             "attachment" => "",
             "menu" => array(
@@ -161,6 +177,10 @@
                 "pl" => "Oh żabko, nie rób mi przykrości, zastanów się porządnie i dasz mi jeszcze znać",
                 "en" => "Oh sweety, don't make me sad, think about it again and let me know your decision."
             ),
+            "thoughts" => array(
+                "pl" => "",
+                "en" => ""
+            ),               
             "morale" => "",
             "attachment" => "",
             "menu" => array(
@@ -172,6 +192,10 @@
                 "pl" => "Cieszę się że się zgodziłaś! ",
                 "en" => "I'm happy you agreed!"
             ),
+            "thoughts" => array(
+                "pl" => "",
+                "en" => ""
+            ),               
             "morale" => "",
             "attachment" => "",
             "menu" => array(
@@ -183,6 +207,10 @@
                 "pl" => "No dobrze chociaż tyle… choć chętnie bym cię zobaczył u mnie, ale nie jestem chyba tego wart...",
                 "en" => "Well at least that's it...although I would love to see you at my place, but I'm probably not worth it...."
             ),
+            "thoughts" => array(
+                "pl" => "",
+                "en" => ""
+            ),               
             "morale" => "",
             "attachment" => "",
             "menu" => array(
@@ -194,6 +222,10 @@
                 "pl" => "Cieszę się że przyjmiesz prezent, choć tak bardzo bym chciał móc być przy tobie...",
                 "en" => "I'm happy you at least will take a present, although I really want to be beside you..."
             ),
+            "thoughts" => array(
+                "pl" => "",
+                "en" => ""
+            ),               
             "morale" => "",
             "attachment" => "",
             "menu" => array(
@@ -205,6 +237,10 @@
                 "pl" => "",
                 "en" => ""
             ),
+            "thoughts" => array(
+                "pl" => "",
+                "en" => ""
+            ),               
             "morale" => "",
             "attachment" => "",
             "menu" => array(
@@ -216,6 +252,10 @@
                 "pl" => "nowy tekst",
                 "en" => "xxx"
             ),
+            "thoughts" => array(
+                "pl" => "",
+                "en" => ""
+            ),               
             "morale" => "-5",
             "attachment" => "",
             "menu" => array(
@@ -227,6 +267,10 @@
                 "pl" => "Koniec gry",
                 "en" => "end game"
             ),
+            "thoughts" => array(
+                "pl" => "",
+                "en" => ""
+            ),               
             "menu"  => array()
         )
     );
