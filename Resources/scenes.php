@@ -20,7 +20,7 @@
                     "id" => 1,
                     "text" => array(
                         "pl" => "Zapytaj o intencje",
-                        "en" => "Ask for intensions"
+                        "en" => "Ask for intentions"
                     ),
                     "message" => array(
                         "pl" => "Chcesz dla mnie jak najlepiej... prawda?",
@@ -47,8 +47,8 @@
         array(
             "id"   => 3,
             "text" => array(
-                "pl" => "Marek: Wiem że bardzo ci sie spodobała ta sukienka, której zdjęcie mi ostatnio wysłałaś. Mogę ci ją kupić jako dowód na moje słowa. Chcesz?",
-                "en" => "Marcus:  I know you really like this one dress. I can buy it for you as a prove of my works. Do you want it?"
+                "pl" => "Marek: No tak, skąd ci sie to wgl wzielo? Oczywiście, że chce dla ciebie jak najlepiej. Wiem że bardzo ci sie spodobała ta sukienka, której zdjęcie mi ostatnio wysłałaś. Mogę ci ją kupić jako dowód na moje słowa. Chcesz?",
+                "en" => "Marcus: Of course, why are you even asking? It's obvious that I want the best for you. I know you really like this one dress. I can buy it for you as a prove of my works. Do you want it?"
             ),
             "thoughts" => array(
                 "pl" => "",
