@@ -249,16 +249,16 @@
                 array(
                     "id" => 1,
                     "text" => array(
-                        "pl" => "Tak",
-                        "en" => "Yes"
+                        "pl" => "Wyślij zdjęcie.",
+                        "en" => "Send a photo."
                     ),
                     "message" => array(
-                        "pl" => "Tak",
-                        "en" => "Yes"
+                        "pl" => "ZDJĘCIE",
+                        "en" => "PHOTO"
                     ),
-                    "morale" => "+10",
-                    "attachment" => "+10",
-                    "goto" => "5"
+                    "morale" => "",
+                    "attachment" => "",
+                    "goto" => "11"
                 ), 
                 array(
                     "id" => 2,
@@ -272,7 +272,7 @@
                     ),
                     "morale" => "-10",
                     "attachment" => "-10",
-                    "goto" => "6"
+                    "goto" => "12"
                 )
         
             )
