@@ -37,10 +37,7 @@
                     "message" => array(
                         "pl" => "",
                         "en" => ""
-                        ),        
-            "thoughts" => array(
-                "pl" => "hmm, to było dzwine",
-                "en" => "huh, that was weird"
+                     
                     ),
                     "goto" => 4,                     
                 )
@@ -49,8 +46,8 @@
         array(
             "id"   => 3,
             "text" => array(
-                "pl" => "X: Wiem że bardzo ci sie spodobała ta sukienka której zdjęcie mi ostatnio wysłałaś. Mogę ci ją kupić jako dowód na moje słowa.",
-                "en" => "X:  I know you really like this one dress. I can buy it for you as a prove of my works."
+                "pl" => "Marek: Wiem że bardzo ci sie spodobała ta sukienka, której zdjęcie mi ostatnio wysłałaś. Mogę ci ją kupić jako dowód na moje słowa. Chcesz?",
+                "en" => "Marcus:  I know you really like this one dress. I can buy it for you as a prove of my works. Do you want it?"
             ),
             "thoughts" => array(
                 "pl" => "",
@@ -69,8 +66,8 @@
                         "pl" => "tak",
                         "en" => "yes"
                     ),
-                    "morale" => "+5",
-                    "attachment" => "+5",
+                    "morale" => "+10",
+                    "attachment" => "+10",
                     "goto" => "5"
                 ), 
                 array(
@@ -83,8 +80,8 @@
                         "pl" => "nie",
                         "en" => "no"
                     ),
-                    "morale" => "-5",
-                    "attachment" => "",
+                    "morale" => "-10",
+                    "attachment" => "-10",
                     "goto" => "6"
                 )
             )
@@ -96,10 +93,10 @@
                 "en" => ""
             ),
             "thoughts" => array(
-                "pl" => "strasznie męczą mnie własne myśli... nieustający konflikt między chęcią wiary w to że jest dobry, z tym że może ona ma racje...",
+                "pl" => "Strasznie męczą mnie własne myśli... nieustający konflikt między chęcią wiary w to że jest dobry, z tym że może ona ma racje...",
                 "en" => "I'm really tired of my own toughts... neverending conflict between wanting to believe he is a good person and that she may be right..."
             ),               
-            "morale" => "-5",
+            "morale" => "-10",
             "attachment" => "",
             "menu" => array(
             )
@@ -107,15 +104,15 @@
         array(
             "id"   => 5,
             "text" => array(
-                "pl" => "Cieszę się że mogę ci sprawić radość i mam nadzieję, że odbierzesz ją osobiście...",
-                "en" => "I'm happy I can make you smile and I hope you will pick it up personally..."
+                "pl" => "Marek: Cieszę się że mogę ci sprawić radość i mam nadzieję, że odbierzesz ją osobiście...",
+                "en" => "Marcus: I'm happy I can make you smile and I hope you will pick it up personally..."
             ),
             "thoughts" => array(
-                "pl" => "",
-                "en" => ""
+                "pl" => "Tak się cieszę, że moje przypuszczenia były nieprawdziwe i do tego dostanę jeszcze tą sukienke!",
+                "en" => "I'm so happy that my assumptions were wrong and in addition I will get a dress I desire!"
             ),               
-            "morale" => "-5",
-            "attachment" => "",
+            "morale" => "+10",
+            "attachment" => "+20",
             "menu" => array(
                 array(
                     "id" => 1,
