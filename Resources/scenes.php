@@ -100,6 +100,8 @@
             "morale" => "-10",
             "attachment" => "",
              "goto" => "10"
+            ),
+        )
             "menu" => array(
             )
         ),
