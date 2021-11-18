@@ -185,7 +185,7 @@
             ),               
             "morale" => "",
             "attachment" => "",
-           
+            "menu" => array()
         ),            
         array(
             "id"   => 7,
@@ -199,7 +199,7 @@
             ),               
             "morale" => "",
             "attachment" => "",
-        
+            "menu" => array()
         ),            
         array(
             "id"   => 8,
@@ -213,7 +213,7 @@
             ),               
             "morale" => "",
             "attachment" => "",
-           
+            "menu" => array()
         ),            
         array(
             "id"   => 9,
@@ -227,9 +227,7 @@
             ),               
             "morale" => "",
             "attachment" => "",
-            
-                  
-         
+            "menu" => array()                                     
         ),            
         array(
             "id"   => 10,
@@ -324,7 +322,7 @@
             "id"    => 404,
             "text"  => array(
                 "pl" => "Koniec gry",
-                "en" => "end game"
+                "en" => "Game Over"
             ),
             "thoughts" => array(
                 "pl" => "",
