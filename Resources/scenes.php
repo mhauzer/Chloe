@@ -100,6 +100,20 @@
             "morale" => "-10",
             "attachment" => "",
             "menu" => array(
+                array(
+                    "id" => 1,
+                    "text" => array(
+                        "pl" => "Dalej",
+                        "en" => "Next"
+                    ),
+                    "message" => array(
+                        "pl" => "",
+                        "en" => ""
+                    ),
+                    "morale" => "",
+                    "attachment" => "",
+                    "goto" => "10"
+                )            
             )
         ),
         array(
@@ -199,7 +213,22 @@
             ),               
             "morale" => "",
             "attachment" => "",
-            "menu" => array()
+            "menu" => array(
+                array(
+                    "id" => 1,
+                    "text" => array(
+                        "pl" => "Dalej",
+                        "en" => "Next"
+                    ),
+                    "message" => array(
+                        "pl" => "",
+                        "en" => ""
+                    ),
+                    "morale" => "",
+                    "attachment" => "",
+                    "goto" => "10"
+                )            
+            )
         ),            
         array(
             "id"   => 8,
@@ -213,7 +242,22 @@
             ),               
             "morale" => "",
             "attachment" => "",
-            "menu" => array()
+            "menu" => array(
+                array(
+                    "id" => 1,
+                    "text" => array(
+                        "pl" => "Dalej",
+                        "en" => "Next"
+                    ),
+                    "message" => array(
+                        "pl" => "",
+                        "en" => ""
+                    ),
+                    "morale" => "",
+                    "attachment" => "",
+                    "goto" => "10"
+                )            
+            )
         ),            
         array(
             "id"   => 9,
@@ -227,7 +271,22 @@
             ),               
             "morale" => "",
             "attachment" => "",
-            "menu" => array()                                     
+            "menu" => array(
+                array(
+                    "id" => 1,
+                    "text" => array(
+                        "pl" => "Dalej",
+                        "en" => "Next"
+                    ),
+                    "message" => array(
+                        "pl" => "",
+                        "en" => ""
+                    ),
+                    "morale" => "",
+                    "attachment" => "",
+                    "goto" => "10"
+                )            
+            )                                     
         ),            
         array(
             "id"   => 10,

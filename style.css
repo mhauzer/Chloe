@@ -28,6 +28,11 @@ nav ul:last-child {
 	margin-right: auto;
 }
 
+#help li {
+	list-style-type: disc;
+	margin-left:2em;
+	margin-bottom: 1em;
+}
 
 @media screen and (orientation: landscape) {
 	#titlepage {
@@ -47,6 +52,11 @@ nav ul:last-child {
 		margin-top: 3em;
 		text-align: center;
 		float: left;		
+	}
+
+	#help {
+		width: 30em;
+		margin: auto;		
 	}
 }
 
